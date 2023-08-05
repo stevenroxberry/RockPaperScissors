@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:rgb(56, 60, 65);
+    color:rgb(226, 222, 216);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin:10px;
+}
+
+h3{
+     margin:5px;
+}
+
+.gameplay{
+    justify-content: center;
+    height:100px;
+    border:1px solid white;
+    display: flex;
+}
+
+.gameplay > .btn{
+    padding:10px;
+    margin:20px;
+    align-items: center;
+    height:50px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(67, 192, 98);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gameplay > .btn:disabled{
+    cursor:default;
+    background-color: rgb(70, 67, 67);
+}
+
+.roundResult{
+    margin-top: 10px;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.matchResult{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.replayButton{
+    padding:10px;
+    margin:20px;
+}
